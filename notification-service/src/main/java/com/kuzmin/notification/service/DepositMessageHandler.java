@@ -3,6 +3,7 @@ package com.kuzmin.notification.service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.kuzmin.notification.config.RabbitMQConfig;
+import com.kuzmin.notification.service.dto.DepositResponseDTO;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;

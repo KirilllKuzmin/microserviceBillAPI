@@ -25,8 +25,8 @@ public class MailConfig {
         mailSender.setHost(environment.getProperty("mail.host"));
         mailSender.setPort(Integer.parseInt(Objects.requireNonNull(environment.getProperty("mail.port"))));
 
-        mailSender.setUsername(environment.getProperty("mail.username"));
-        mailSender.setPassword(environment.getProperty("mail.password"));
+//        mailSender.setUsername(environment.getProperty("mail.username"));
+//        mailSender.setPassword(environment.getProperty("mail.password"));
 
         Properties properties = mailSender.getJavaMailProperties();
         properties.put("mail.transport.protocol", environment.getProperty("mail.transport.protocol"));

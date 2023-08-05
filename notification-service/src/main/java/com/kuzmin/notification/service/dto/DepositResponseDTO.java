@@ -1,4 +1,4 @@
-package com.kuzmin.notification.service;
+package com.kuzmin.notification.service.dto;
 
 import lombok.Getter;
 import lombok.Setter;
