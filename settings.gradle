@@ -1,0 +1,10 @@
+rootProject.name = 'microserviceBillAPI'
+include 'account-service'
+include 'bill-service'
+include 'deposit-service'
+include 'deposit-service'
+include 'gateway'
+include 'config-service'
+include 'registry'
+include 'notification-service'
+
