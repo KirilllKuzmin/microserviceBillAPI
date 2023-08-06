@@ -3,7 +3,7 @@ server:
 
 rabbitmq:
   port: 5672
-  host: localhost
+  host: 192.168.31.40
   username: guest
   password: guest
   listener:
